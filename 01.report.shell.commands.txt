@@ -1,0 +1,54 @@
+trungnhat@trungnhat-GL552VX:~$ echo hello world
+hello world
+trungnhat@trungnhat-GL552VX:~$ passwd
+Changing password for trungnhat.
+(current) UNIX password: 
+trungnhat@trungnhat-GL552VX:~$ date
+Wed 03 Apr 2019 10:06:40 AM +07
+trungnhat@trungnhat-GL552VX:~$ hostname
+trungnhat-GL552VX
+trungnhat@trungnhat-GL552VX:~$ arch
+x86_64
+trungnhat@trungnhat-GL552VX:~$ uname -a
+Linux trungnhat-GL552VX 4.15.0-47-generic #50~16.04.1-Ubuntu SMP Fri Mar 15 16:06:21 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+trungnhat@trungnhat-GL552VX:~$ dmesg
+[   23.120617] Bluetooth: RFCOMM socket layer initialized
+[   23.120621] Bluetooth: RFCOMM ver 1.11
+[  121.183017] wlp2s0: authenticate with 7a:8a:20:55:87:40
+[  121.192182] wlp2s0: send auth to 7a:8a:20:55:87:40 (try 1/3)
+[  121.198849] wlp2s0: authenticated
+[  121.201230] wlp2s0: associate with 7a:8a:20:55:87:40 (try 1/3)
+[  121.207926] wlp2s0: RX AssocResp from 7a:8a:20:55:87:40 (capab=0x411 status=0 aid=23)
+[  121.210923] wlp2s0: associated
+[  121.231039] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+trungnhat@trungnhat-GL552VX:~$ uptime
+ 10:09:01 up 15 min,  1 user,  load average: 0,45, 0,66, 0,61
+trungnhat@trungnhat-GL552VX:~$ who am i
+trungnhat@trungnhat-GL552VX:~$ whoami
+trungnhat
+trungnhat@trungnhat-GL552VX:~$ id
+uid=1000(trungnhat) gid=1000(trungnhat) groups=1000(trungnhat),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+trungnhat@trungnhat-GL552VX:~$ last
+
+reboot   system boot  4.15.0-47-generi Wed Apr  3 03:46 - 03:50  (00:03)
+trungnha tty7         :0               Wed Apr  3 03:46 - 03:46  (00:00)
+trungnha tty7         :0               Wed Apr  3 03:45 - 03:46  (00:00)
+trungnha tty7         :0               Wed Apr  3 03:45 - 03:45  (00:00)
+trungnha tty7         :0               Wed Apr  3 03:45 - 03:45  (00:00)
+trungnha tty7         :0               Wed Apr  3 03:45 - 03:45  (00:00)
+reboot   system boot  4.15.0-47-generi Wed Apr  3 03:44 - 03:50  (00:06)
+trungnha tty7         :0               Wed Apr  3 03:22 - down   (00:22)
+reboot   system boot  4.15.0-47-generi Wed Apr  3 03:21 - 03:44  (00:22)
+trungnha tty7         :0               Wed Apr  3 02:57 - crash  (00:24)
+reboot   system boot  4.15.0-45-generi Wed Apr  3 02:56 - 03:44  (00:47)
+
+wtmp begins Wed Apr  3 02:56:54 2019
+
+trungnhat@trungnhat-GL552VX:~$ finger
+wThe program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+trungnhat@trungnhat-GL552VX:~$ w
+ 10:11:31 up 18 min,  1 user,  load average: 0,68, 0,61, 0,59
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+trungnha tty7     :0               09:53   18:06  39.74s  0.12s /sbin/upstart -
+
