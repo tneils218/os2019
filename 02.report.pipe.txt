@@ -1,0 +1,10 @@
+tneils@tneils-GL552VX:~$ ls -la | grep list
+tneils@tneils-GL552VX:~$ wc -l /etc/passwd
+41 /etc/passwd
+tneils@tneils-GL552VX:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        8058300     1814132     4837332      187440     1406836     5794140
+Swap:       8387580           0     8387580
+tneils@tneils-GL552VX:/usr/share/backgrounds/linuxmint-tara$ find -name "*.jpg" | wc -l
+22
+
