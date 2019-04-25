@@ -1,0 +1,19 @@
+tneils@tneils-GL552VX:~$ ps man
+  PID TTY      STAT   TIME COMMAND
+  958 tty7     -      0:51 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/ru
+    - -        Ssl+   0:47 -
+    - -        Ssl+   0:03 -
+  960 tty1     -      0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+    - -        Ss+    0:00 -
+ 2430 pts/0    -      0:00 bash
+    - -        Ss     0:00 -
+ 4293 pts/0    -      0:00 ps man
+    - -        R+     0:00 -
+tneils@tneils-GL552VX:~$ ps man | grep gnome-calculator
+ 4307 pts/1    -      0:00 gnome-calculator
+ 4325 pts/0    -      0:00 grep --color=auto gnome-calculator
+tneils@tneils-GL552VX:~$ cat /proc/4307/status
+State:	S (sleeping)
+tneils@tneils-GL552VX:~$ kill -s STOP 4307
+tneils@tneils-GL552VX:~$ kill -s CONT 4307
+tneils@tneils-GL552VX:~$ kill -s KILL 4307
