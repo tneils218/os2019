@@ -1,0 +1,12 @@
+tneils@tneils-GL552VX:~$ grep systemd /proc/sched_debug
+ S  systemd-udevd   417       367.448655       583   120         0.000000      1038.228834         0.000000 0 0 /autogroup-16
+ Ssystemd-timesyn   674         0.120047        69   120         0.000000        25.603616         0.000000 0 0 /autogroup-37
+ Ssystemd-resolve   675        90.577227      1910   120         0.000000       678.856209         0.000000 0 0 /autogroup-38
+ Ssystemd-journal   392        28.046698      1047   119         0.000000       923.404990         0.000000 0 0 /autogroup-8
+ S        systemd  1122        26.235306       138   120         0.000000       109.788839         0.000000 0 0 /autogroup-93
+ S        systemd     1       202.137779      1697   120         0.000000      1406.604548         0.000000 0 0 /autogroup-2
+ S systemd-logind   767        19.034079      2976   120         0.000000       110.425698         0.000000 0 0 /autogroup-56
+tneils@tneils-GL552VX:~$ grep switch /proc/1/sched
+nr_switches                                  :                 1697
+nr_voluntary_switches                        :                 1426
+nr_involuntary_switches                      :                  271
