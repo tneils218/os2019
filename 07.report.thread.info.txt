@@ -1,0 +1,8 @@
+tneils@tneils-GL552VX:~$ ps -e | grep firefox
+ 2069 ?        00:00:16 firefox
+tneils@tneils-GL552VX:~$ ps -o nlwp 2069
+NLWP
+  69
+tneils@tneils-GL552VX:~$ ls /proc/2069/task | wc -w
+69
+
